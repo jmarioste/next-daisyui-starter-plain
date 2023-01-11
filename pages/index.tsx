@@ -3,7 +3,6 @@ import { useSession } from "next-auth/react";
 import React from "react";
 
 const HomePage: NextPage = () => {
-  const { data } = useSession();
   return (
     <div className="container">
       <div className="grid place-content-center min-h-screen">
